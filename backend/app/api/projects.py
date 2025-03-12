@@ -10,14 +10,14 @@ def get_projects():
             'title': 'LLM Project',
             'description': 'AI stack project using langchain, chromadb, and Ollama',
             'tags': ['Python', 'AI', 'LLM'],
-            'github': 'https://github.com/yourusername/llm-project'
+            'github': 'https://github.com/sadieflick/biomedical_graphrag'
         },
         {
             'id': 2,
             'title': 'Portfolio Website',
             'description': 'This portfolio website built with React and Flask',
             'tags': ['React', 'Flask', 'CSS'],
-            'github': 'https://github.com/yourusername/portfolio'
+            'github': 'https://github.com/sadieflick/portfolio'
         }
     ]
     
@@ -33,7 +33,7 @@ def get_project(project_id):
             'description': 'AI stack project using langchain, chromadb, and Ollama',
             'long_description': 'A detailed exploration of building LLM applications with Python...',
             'tags': ['Python', 'AI', 'LLM'],
-            'github': 'https://github.com/yourusername/llm-project',
+            'github': 'https://github.com/sadieflick/biomedical_graphrag',
             'image': 'llm_project.jpg'
         },
         2: {
@@ -42,7 +42,7 @@ def get_project(project_id):
             'description': 'This portfolio website built with React and Flask',
             'long_description': 'My personal portfolio site built with React and Flask...',
             'tags': ['React', 'Flask', 'CSS'],
-            'github': 'https://github.com/yourusername/portfolio',
+            'github': 'https://github.com/sadieflick/portfolio',
             'image': 'portfolio.jpg'
         }
     }
