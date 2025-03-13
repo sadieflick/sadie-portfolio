@@ -8,14 +8,14 @@ function Projects() {
       title: "LLM Project",
       description: "AI stack project using langchain, chromadb, and Ollama",
       tags: ["Python", "AI", "LLM"],
-      github: "https://github.com/yourusername/llm-project"
+      github: "https://github.com/sadieflick/llm-project"
     },
     {
       id: 2,
       title: "Portfolio Website",
       description: "This portfolio website built with React and Flask",
       tags: ["React", "Flask", "CSS"],
-      github: "https://github.com/yourusername/portfolio"
+      github: "https://github.com/sadieflick/portfolio"
     }
   ];
 
