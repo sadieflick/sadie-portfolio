@@ -15,7 +15,7 @@ function Projects() {
       title: "Portfolio Website",
       description: "This portfolio website built with React and Flask",
       tags: ["React", "Flask", "CSS"],
-      github: "https://github.com/sadieflick/portfolio"
+      github: "https://github.com/sadieflick/sadie-portfolio"
     }
   ];
 

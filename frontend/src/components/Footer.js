@@ -7,8 +7,8 @@ function Footer() {
       <div className="footer-content">
         <p>&copy; {new Date().getFullYear()} Sadie Flick</p>
         <div className="social-links">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/sadieflick" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/sadieflick" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </footer>
