@@ -5,10 +5,10 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "LLM Project",
+      title: "Biomedical Chat Assistant",
       description: "AI stack project using langchain, chromadb, and Ollama",
       tags: ["Python", "AI", "LLM"],
-      github: "https://github.com/sadieflick/llm-project"
+      github: "https://github.com/sadieflick/biomedical_graphrag"
     },
     {
       id: 2,
