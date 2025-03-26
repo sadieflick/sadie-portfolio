@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
+import { Link } from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
 
 function Projects() {
   const projects = [
@@ -21,6 +23,7 @@ function Projects() {
 
   return (
     <div className="projects-container">
+
       <h1>My Projects</h1>
       <div className="projects-grid">
         {projects.map(project => (

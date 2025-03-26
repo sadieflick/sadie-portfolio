@@ -1,8 +1,12 @@
 import React from 'react';
 import '../styles/Resume.css';
+import { Link } from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
 
 function Resume() {
   return (
+    <>
+
     <div className="resume-container">
       <h1>Resume</h1>
       <div className="resume-content">
@@ -60,6 +64,7 @@ function Resume() {
         <a href="/resume.pdf" download>Download Full Resume (PDF)</a>
       </div>
     </div>
+    </>
   );
 }
 

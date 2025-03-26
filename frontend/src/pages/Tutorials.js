@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Tutorials.css';
+import { Link } from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
 
 function Tutorials() {
   const tutorials = [
@@ -20,6 +22,8 @@ function Tutorials() {
   ];
 
   return (
+    <>
+
     <div className="tutorials-container">
       <h1>Video Tutorials</h1>
       <div className="tutorials-grid">
@@ -36,6 +40,7 @@ function Tutorials() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 

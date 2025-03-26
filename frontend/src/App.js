@@ -7,20 +7,27 @@ import Resume from './pages/Resume';
 import Tutorials from './pages/Tutorials';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Blog from './pages/Blog'
+
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
         <main>
+      
+        
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/tutorials" element={<Tutorials />} />
+
           </Routes>
         </main>
+        
         <Footer />
       </div>
     </BrowserRouter>
